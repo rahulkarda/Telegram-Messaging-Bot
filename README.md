@@ -6,6 +6,10 @@ This app uses an API [Telegram Bot API](https://core.telegram.org/bots/api) for 
 
 The user can enter bot token and chat ID to initiate the messaging and can post as well as receive messages through the Telegram API.
 
+### Features: 
+    View received messages
+    Send new messages
+
 The site is live at https://telegram-messaging-bot.netlify.app/
 
 <a target="_blank" href="https://telegram-messaging-bot.netlify.app/">
@@ -24,8 +28,8 @@ The site is live at https://telegram-messaging-bot.netlify.app/
 ## Optimizations
 While improving this project, I would start by implementing the following features -
 
-   1. Add support for multiple cryptocurrencies with same keywords
-   2. Implement more API endpoints
+   1. Add support for sending messages to multiple users at once
+   2. Implement a way so that user can directly send messages just with the username
               
 ## Lessons Learned
-I learned how to develop an API, create documentation for it and serve content when the API gets a request. I learned how to integrate an API into a project and how to manipulate the DOM using JavaScript to create a simple API-based project. I learned about API management and how it can help in the growth of  businesses.
+I learned how to develop an application with the Telgram API. I learned how to integrate an API into a project and how to manipulate the DOM using JavaScript to create a simple API-based project. I learned about API management and how it can help in the growth of businesses.
