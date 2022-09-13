@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     setDefaultValue()
 }, false);
 
+//Calling received messages function after every 1 second
+setInterval(viewReceived,3000);
+
+
 //Set default values if specified in URL
 function setDefaultValue() {
     const queryString = window.location.search;
