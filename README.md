@@ -13,7 +13,7 @@ The user can enter bot token and chat ID to initiate the messaging and can post 
 The site is live at https://telegram-messaging-bot.netlify.app/
 
 <a target="_blank" href="https://telegram-messaging-bot.netlify.app/">
-          <img src="" width="100%" alt="Telegram Messaging Bot"/>
+          <img src="https://github.com/rahulkarda/Telegram-Messaging-Bot/blob/master/images/telegram-messaging-bot.jpg?raw=true" width="100%" alt="Telegram Messaging Bot"/>
 </a>
 <br>
 
