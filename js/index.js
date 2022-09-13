@@ -3,8 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     setDefaultValue()
 }, false);
 
-//Calling received messages function after every 1 second
-setInterval(viewReceived,3000);
+//Fetching recent messages after every 1 second
+function fetchRecentMessages(){
+    setInterval(viewReceived,3000);
+}
 
 
 //Set default values if specified in URL
@@ -86,4 +88,6 @@ function viewReceived() {
 
         })
 
+        //Start fetching recent messages once the user asks for the received messages
+        setTimeout( fetchRecentMessages, 1000);
 }
