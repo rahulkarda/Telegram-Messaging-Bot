@@ -89,5 +89,5 @@ function viewReceived() {
         })
 
         //Start fetching recent messages once the user asks for the received messages
-        setTimeout( fetchRecentMessages, 1000);
+        // setTimeout( fetchRecentMessages, 1000);
 }
