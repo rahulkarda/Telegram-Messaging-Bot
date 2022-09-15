@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
 }, false);
 
 //Fetching recent messages after every 1 second
-function fetchRecentMessages(){
-    setInterval(viewReceived,3000);
-}
+// function fetchRecentMessages(){
+//     setInterval(viewReceived,3000);
+// }
 
 
 //Set default values if specified in URL
